@@ -1,0 +1,654 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #6e6e6e;
+}
+.kontener
+{
+    text-align: center;
+}
+/* NAGŁÓWEK */
+.naglowek
+{
+    display: flex;
+    width: 60%;
+    height: 50vh;
+    margin: 0 auto;
+    background-image: url('images/tlo4.jpg');
+    background-size: cover;
+}
+.pierwszy_naglowek
+{
+    height: 100%;
+    width: 60%;
+    background-color:rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+.tekst_naglowka
+{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-family: 'Overpass', sans-serif;
+}
+.tekst_naglowka_jeden
+{
+    font-size: 8vh;
+    font-weight: bold;
+}
+.tekst_naglowka_dwa
+{
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin-top: 0.7em;
+}
+.imie
+{
+    color: #1195ce;
+}
+.tekst_naglowka_trzy
+{
+    margin-top: 1em;
+    line-height: 1.4em;
+    font-weight: bold;
+    font-size: 1.7vh;
+}
+.drugi_naglowek 
+{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(59, 59, 59, 0.7);
+    position: relative;
+}
+ul.lista_drugiego_naglowka
+{
+    list-style-type: none;
+    margin-top: 5vh;
+}
+.lista_drugiego_naglowka > li
+{
+    display: inline-block;
+    margin-right: 1em;
+}
+.lista_drugiego_naglowka > li a
+{
+    text-decoration: none;
+    display: block;
+    color: #e2e2e3;
+    font-size: 2.2vh;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+}
+.lista_drugiego_naglowka>li a:hover
+{
+    color: #7fa0c1;
+}
+.obrazek_naglowek
+{
+    width: 20vh;
+    height: 20vh;
+    position: relative;
+    top: 5vh;
+    left: -10vh;
+    border-radius: 50%;
+    background-image: url('images/hello.jpg');
+    background-size: cover;
+}
+.social_media_tekst
+{
+    color: #e2e2e3;
+    font-family: "Overpass", sans-serif;
+    font-size: 1.4vh;
+    position: relative;
+    top: 10vh;
+    height: 2vh;
+    text-align: right;
+    padding-right: 25%;
+}
+.social_media_hr
+{   width: 25%;
+    height: 1px;
+    position: relative;
+    top: 10vh;
+    text-align: right;
+    margin-left: 55%;
+}
+.social_media
+{
+    position: relative;
+    top: 13vh;
+    margin-left: 34%;
+}
+.social_media .fa
+{
+    padding: 0.4em;
+    font-size: 1.2em;
+    width: 0.8em;
+    height: 0.8em;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter
+{
+    background: #55ACEE;
+    color: white;
+}
+.fa-github
+{
+    background-color: white;
+    color: black;
+}
+.fa-linkedin
+{
+    background-color: #4875B4;
+    color: white;
+}
+/* KONIEC NAGŁÓWKA */
+/* POD NAGŁÓWKIEM */
+.pod_naglowkiem
+{
+    width: 60%;
+    height: 20vh;
+    margin: 0 auto;
+    background-color:#e4e4e4;
+    position: relative;
+}
+.tekst_pod_naglowkiem
+{
+    padding: 3vh;
+    font-size: 3.3vh;
+    font-weight: bold;
+    font-family: "Overpass", sans-serif;
+}
+.button_pod_naglowkiem
+{
+    display: inline-block;
+    width: 15vh;
+    height: 4vh;
+    border: 1px solid #4f90ca;
+    background-color: #4f90ca;
+    color: white;
+    border-radius: 40px;
+    line-height: 4vh;
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+    font-size: 1.7vh;
+    margin-right: 4vh;
+}
+.button_pod_naglowkiem a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
+}
+.button_pod_naglowkiem_dwa
+{
+    display: inline-block;
+    width: 15vh;
+    height: 4vh;
+    border-radius: 40px;
+    font-size: 1.7vh;
+    color: white;
+    line-height: 4vh;
+    border: 1px solid #4f90ca;
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+}
+.button_pod_naglowkiem_dwa a {
+    display: block;
+    text-decoration: none;
+    color: #4f90ca;
+}
+.button_pod_naglowkiem:hover
+{
+    background-color: #d48c36;
+    border: 1px solid #d48c36;
+}
+.button_pod_naglowkiem_dwa:hover
+{
+    border: 1px solid #d48c36;
+    color: #d48c36;
+}
+.button_pod_naglowkiem_dwa:hover a
+{
+    color: #d48c36;
+}
+/* KONIEC POD NAGŁÓWKIEM */
+/* ABOUT ME */
+.about_me
+{
+    width: 60%;
+    height: 45vh;
+    margin: 0 auto;
+    background-color: #c8c8c8;
+    font-family: "Dosis", sans-serif;
+}
+.naglowek_about_me
+{
+    font-family: "Overpass", sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    padding-top: 5vh;
+}
+.grid_about_me
+{   
+    display: grid;
+    width: 90%;
+    height: 24vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 5vh;
+    background-color: #d4d4d4;
+    box-shadow: -1px 2px 6px 5px #bfbfbf;
+    align-items: center;
+}
+.pierwszy_about_me
+{
+    grid-area: 1 / 1 / 2 / 2;
+    border-right: 1px solid #4f90ca;
+    height: 20vh;
+    padding-top: 1vh;
+    box-sizing: border-box;
+}
+.drugi_about_me
+{
+    grid-area: 1 / 2 / 2 / 3;
+    line-height: 1.8em;
+    text-align: left;
+    padding-left: 3em;
+    font-size: 1.6vh;
+    letter-spacing: 0.07em;
+    height: 20vh;
+    padding-top: 1vh;
+    box-sizing: border-box;
+}
+.lista_about_me
+{
+    list-style-type: none;
+    height: 18vh;
+    box-sizing: border-box;
+}
+.lista_about_me > li 
+{
+    text-align: left;
+    margin-left: 30%;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.7vh;
+}
+.lista_about_me_element
+{
+    color: #4f90ca;
+}
+/* KONIEC ABOUT ME */
+/* SKILLS */
+.skills
+{
+ width: 60%;
+ height: 50vh;
+ margin: 0 auto;
+ background-color: #c8c8c8;
+ font-family: "Dosis", sans-serif;
+}
+.naglowek_skills
+{
+    font-family: "Overpass", sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+}
+.grid_skills
+{
+    display: grid;
+    width: 90%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 3em;
+    height: 30vh;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    background-color: #c8c8c8;
+}
+.hard_skills
+{
+    grid-area: 1 / 1 / 2 / 2;
+    height: 26vh;
+    width: 90%;
+    background-color: #d4d4d4;
+    box-shadow: -1px 2px 6px 5px #bfbfbf;
+}
+.soft_skills
+{
+    grid-area: 1 / 2 / 2 / 3;
+    height: 26vh;
+    width: 90%;
+    background-color: #d4d4d4;
+    box-shadow: -1px 2px 5px 4px #bfbfbf;
+}
+.skills_napisy
+{
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+    font-size: 3.5vh;
+}
+.skills_slider
+{
+    width: 80%;
+    margin: 0 auto 3vh auto;
+    height: 1.7vh;
+    position: relative;
+    border-radius: 25px;
+    padding-top: 0.3vh;
+    padding-left: 0.3vh;
+    background-color: #bbbbbb;
+}
+.skills_slider:last-child
+{
+    margin-bottom: 1.7vh;
+}
+.skills_slider_span
+{
+    display: block;
+    height: 1.3vh;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(90deg, #cd5d4d, #ed904b);
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+}
+.skills_name
+{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 1.7vh;
+}
+/* KONIEC SKILLSÓW */
+/* PORTFOLIO */
+.portfolio
+{
+    margin: 0 auto;
+    background-color: #c8c8c8;
+    font-family: "Dosis", sans-serif;
+    width: 60%;
+}
+.portfolio_naglowek
+{
+    font-family: "Overpass", sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.portfolio_grid
+{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+.portfolio_element
+{
+    width: 90%;
+    height: 35vh;
+    margin: 0 auto 5vh auto;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+.portfolio_obrazek
+{
+    height: 24vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.portfolio_obrazek a
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    font-size: 5vh;
+    font-weight: bold;
+    opacity: 0;
+    background-color: rgba(108, 108, 108, 1);
+    transition: all 0.5s ease-in-out;
+}
+.portfolio_obrazek a span
+{
+    display: block;
+    padding-top: 8vh;
+    color: white;
+}
+.portfolio_obrazek:hover a
+{
+    opacity: 0.7;
+}
+.portfolio_napis
+{
+    height: 11vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+    text-align: left;
+    padding: 0.7vh 0em 0em 1vh;
+    box-shadow: 5px 4px 5px #a4a4a4;
+    box-sizing: border-box;
+    
+}
+.portfolio_napis span
+{
+    display: block;
+}
+.portfolio_nazwa
+{
+    font-size: 1.9vh;
+    font-weight: bold;
+}
+.portfolio_link
+{
+    font-size: 1.5vh;
+}
+.portfolio_napis a
+{
+    text-decoration: none;
+    color: #55a2c5;
+}
+.portfolio_tekst
+{
+    font-size: 1.6vh;
+    margin-top: 0.8vh;
+}
+.portfolio_obrazek1
+{
+    background-image: url('images/basketball.jpg');
+    background-size: cover;
+}
+.portfolio_obrazek2
+{
+    background-image: url('images/soccer.jpg');
+    background-size: cover;
+}
+.portfolio_obrazek3 {
+    background-image: url('images/kubica.jpg');
+    background-size: cover;
+}
+.portfolio_obrazek4 {
+    background-image: url('images/labs.jpg');
+    background-size: cover;
+}
+.portfolio_obrazek5 {
+    background-image: url('images/wyzel.jpg');
+    background-size: cover;
+}
+.portfolio_obrazek6 {
+    background-image: url('images/corgi.jpg');
+    background-size: cover;
+}
+/* KONIEC PORTFOLIO */
+/* FOOTER */
+.footer
+{
+    width: 60%;
+    margin: 0 auto;
+    font-family: "Dosis",
+    sans-serif;
+    height: 60vh;
+    background-color: #e9e9e9;
+}
+.footer_flex
+{
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Dosis", sans-serif;
+    height: 56vh;
+    background-color: #e9e9e9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.footer_box
+{
+    width: 30%;
+    background-color: #5295cd;
+    color: white;
+    height: 50vh;
+    padding-top: 4vh;
+    padding-left: 2vh;
+    text-align: left;
+    margin-top: 5vh;
+    margin-left: 5%;
+    font-size: 1.8vh;
+    box-sizing: border-box;
+}
+.footer_linia
+{
+    height: 1px;
+    width: 40%;
+}
+.footer_tekst1
+{
+    width: 75%;
+    padding-top: 4vh;
+}
+.footer_tekst2 {
+    width: 75%;
+    padding-top: 4vh;
+}
+.footer_tekst3 {
+    width: 75%;
+    padding-top: 8vh;
+}
+.footer_social_media .fa
+{
+    padding: 0.5em;
+    font-size: 0.8em;
+    width: 0.8em;
+    height: 0.8em;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 3vh;
+    margin-right: 1%;
+
+}
+/* KONIEC footer_box */
+.footer_formbox
+{
+    width: 55%;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-right: 10%;
+    background-color: #e4e4e4;
+    box-shadow: 10px 7px 15px #cacaca;
+    box-sizing: border-box;
+}
+.footer_formbox h2
+{
+    color: #5295cd;
+    font-size: 3.4vh;
+    margin-bottom: 5vh;
+}
+.footer_formbox input[type="text"],
+.footer_formbox input[type="email"]
+{
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 75%;
+    padding: 1%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5295cd;
+    margin-bottom: 4vh;
+    margin-left: 10%;
+}
+.footer_formbox input[name="field3"]
+{
+    margin-bottom: 8vh;
+}
+.footer_formbox input::placeholder
+{
+    color: #a9a9a9;
+}
+.footer_formbox input[type="submit"]
+{
+    height: 4vh;
+    width: 12vh;
+    background-color: #5295cd;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 2.2vh;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    font-family: "Dosis", sans-serif;
+}
+.footer_formbox input[type="submit"]:active
+{
+    background-color: #276aa1;
+    outline: none;
+}
+.footer_formbox input[type="submit"]:focus
+{
+    outline: none;
+    border: 1px solid #276aa1;
+}
+.stopka
+{
+    border: 1px solid yellow;
+    width: 100%;
+}
+.copyright
+{
+    font-size: 1.3vh;
+    color: #a9a9a9;
+}
